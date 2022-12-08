@@ -1,0 +1,17 @@
+# Case Study - Predicting Music Genre from Images
+
+## Repository Contents
+
+This repository contains code, data and documents for an example of a data science project to investigate whether images can be manipulated to improve the performance of a convolutional neural network machine learning model. This project includes elements from another project which can be found [here](https://github.com/akippenhan749/AlbumArtCoverColors) and was created as part of the Data Science Project Course (DS 4002) at the University of Virginia in the Fall of 2022.
+
+## Using the Contents of this Repository
+
+After cloning or forking this repository, you can use the resources provided to complete the project as described below. For a guide on how to clone a repository, click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository). For a guide on how to fork a repository, click [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo). Once cloned/forked, you can access the provided image data in the `data` folder of this repository, with images for each music genre sorted into their respective folders as well as the code examples for image manipulation in the `code/imageManipulation` folder of this repository and for `code/modeling` in the modeling folder of this repository. The description for the assignment is below as well as in `assignmentDescription.pdf` ([src](/assignmentDescription.pdf)) and the rubric for this assignment can be found in `assignmentRubric.pdf` ([src](/assignmentRubric.pdf)).
+
+## Assignment Description
+
+![convolutional neural network machine learning model image](https://i.ytimg.com/vi/f0t-OCG79-U/maxresdefault.jpg)
+
+**Prompt:** You have just been hired as a data scientist for one of today’s most popular musical artists, the Quartiles! They want to create a new album and want to see if there is some way that data science can help them to make the album more popular and choose what genre they will make it (They do like to spread out!). They want to focus primarily on the album art. The six different genres they have decided they want to choose from are: alternative, country, hip-hop, jazz, pop and rock. Using your data science skills, you have collected some example album art images from these different genres and developed a convolutional neural network machine learning model that can make predictions on what genre an album art image correlates to. This method works fairly well, but you were not satisfied with the results and looked for ways that you could improve the model. Aha! What if you could change the images given to the model to make it better at predicting a genre?
+
+**Deliverable:** You have narrowed down your methods into three different techniques for image manipulation: **flipping**, **grayscaling** and **brightness adjustment**. Your task is to determine if any of these methods increase the convolutional neural network model’s accuracy at predicting the genre or if the original images work the best. Then choose which genre you believe the Quartiles should select for their new album based on your findings. For more details on the requirements for this project, see the rubric ([assignmentRubric.pdf](/assignmentRubric.pdf)).
